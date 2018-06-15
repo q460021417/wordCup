@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS layout */
+
+/* 默认样式 */
+
+html {
+  -webkit-text-size-adjust: none;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, code, em, img, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tr, th, input, textarea, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  font-style: normal;
+  font-weight: 400;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dd, div {
+  margin: 0;
+  font-weight: 400;
+}
+
+html, body {
+  max-width: 750px;
+  min-height: 100%;
+  margin: 0 auto;
+  /*-webkit-overflow-scrolling: none;*/
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/*隐藏滚动条*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: none 0;
+}
+
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+input, select, textarea, button {
+  -webkit-appearance: none;
+  font: inherit;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  border: none;
+}
+
+input, textarea, select {
+  margin: 0;
+}
+
+input, textarea {
+  padding: 0;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+/* 定位 */
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* 浮动公共样式 */
+
+.left {
+  float: left;
+  _display: inline;
+}
+
+.right {
+  float: right;
+  _display: inline;
+}
+
+.clear:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+.overflowEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.boxshadow {
+  -webkit-box-shadow: 0px 0px 6px #d8d8d8;
+  box-shadow: 0px 0px 6px #d8d8d8;
+}
+
+/* 文本对齐方式*/
+
+.t_l {
+  text-align: left;
+}
+
+.t_c {
+  text-align: center;
+}
+
+.t_r {
+  text-align: right;
+}
+
+/*弹性盒*/
+
+.boxWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boxWrapColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.boxFlex {
+  -webkit-box-flex: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.boxflexWrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-lines: multiple;
+}
+
+/*1px 边框*/
+
+.borderBottom {
+  border-bottom: 1px solid #ededed;
+}
+
+.borderTop {
+  border-top: 1px solid #ededed;
+}
+
+.borderRight {
+  border-right: 1px solid #ededed;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  .borderBottom {
+    background: none;
+    position: relative;
+    border: none;
+  }
+  .borderBottom::after {
+    background: none;
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200%;
+    height: 1px;
+    border-bottom: 1px solid #ededed;
+    -webkit-transform: scale(0.5) translate(-50%, 50%);
+    transform: scale(0.5) translate(-50%, 50%);
+    z-index: 10;
+  }
+  .borderTop {
+    background: none;
+    position: relative;
+    border: none;
+  }
+  .borderTop::before {
+    background: none;
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200%;
+    height: 1px;
+    border-bottom: 1px solid #ededed;
+    -webkit-transform: scale(0.5) translate(-50%, -50%);
+    transform: scale(0.5) translate(-50%, -50%);
+    z-index: 10;
+  }
+  .borderRight {
+    background: none;
+    position: relative;
+    border: none;
+  }
+  .borderRight::before {
+    background: none;
+    content: " ";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 1px;
+    height: 200%;
+    border-right: 1px solid #ededed;
+    -webkit-transform: scale(0.5) translate(-50%, -50%);
+    transform: scale(0.5) translate(-50%, -50%);
+    z-index: 10;
+  }
+}

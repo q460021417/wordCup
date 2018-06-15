@@ -1,0 +1,308 @@
+{
+  "getServeIndexVO": {
+    "comment": "套餐的价格列表",
+    "serveModelVOs": [
+      {
+        "serves": [
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "事业福",
+            "createBy": null,
+            "serveAliasName": "事业福",
+            "createTime": null,
+            "updateBy": null,
+            "price": 2299.99,
+            "serveId": "2e1a14bf95c44ca0b1b9910b66d6afdf",
+            "updateTime": null,
+            "serveSupplierId": "3330a6c742ae4106a2ad8ce34bf0a3b3",
+            "serveModelId": "7285241fb1c247ef95cdd1430cb8b9e8"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "运势福",
+            "createBy": null,
+            "serveAliasName": "运势福",
+            "createTime": null,
+            "updateBy": null,
+            "price": 3344.55,
+            "serveId": "743bea2734004e55abd3da2dfb1e70e8",
+            "updateTime": null,
+            "serveSupplierId": "c471cda01f5d4749815d3b099e958866",
+            "serveModelId": "7285241fb1c247ef95cdd1430cb8b9e8"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "事业福",
+            "createBy": null,
+            "serveAliasName": "事业福",
+            "createTime": null,
+            "updateBy": null,
+            "price": 0.01,
+            "serveId": "0391eea324e04e559abffe499764767e",
+            "updateTime": null,
+            "serveSupplierId": "94327b7fc5e949c6b4f2793d985adaad",
+            "serveModelId": "7285241fb1c247ef95cdd1430cb8b9e8"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "学业福",
+            "createBy": null,
+            "serveAliasName": "学业福",
+            "createTime": null,
+            "updateBy": null,
+            "price": 1222.22,
+            "serveId": "a90122634e8e4fd1b2677a6199c1a962",
+            "updateTime": null,
+            "serveSupplierId": "157e4613104c4d91a9744ecde03facd5",
+            "serveModelId": "7285241fb1c247ef95cdd1430cb8b9e8"
+          }
+        ],
+        "serveModelType": 3,
+        "serveModelId": "7285241fb1c247ef95cdd1430cb8b9e8",
+        "serveModelName": "祈福纳祥"
+      },
+      {
+        "serves": [
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "黄金版",
+            "createBy": null,
+            "serveAliasName": "黄金版",
+            "createTime": null,
+            "updateBy": null,
+            "price": 2222.23,
+            "serveId": "22b67e3f062a469a81ba588b3832f4e8",
+            "updateTime": null,
+            "serveSupplierId": "d148551318fb4695a52bbc836d1eac79",
+            "serveModelId": "7c8b4daeeb284255a88f3a79fe823cb1"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "铂金版",
+            "createBy": null,
+            "serveAliasName": "铂金版",
+            "createTime": null,
+            "updateBy": null,
+            "price": 2345.11,
+            "serveId": "5142b797ca4e4a718c63da2321f1572d",
+            "updateTime": null,
+            "serveSupplierId": "765f3307d9ef4ded9d35afb6f3282e17",
+            "serveModelId": "7c8b4daeeb284255a88f3a79fe823cb1"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "至尊版",
+            "createBy": null,
+            "serveAliasName": "至尊版",
+            "createTime": null,
+            "updateBy": null,
+            "price": 0.01,
+            "serveId": "db66d564c38d48adb4a36b7d9766d61c",
+            "updateTime": null,
+            "serveSupplierId": "63cd2938d5e948e7a070cbc09489d2b8",
+            "serveModelId": "7c8b4daeeb284255a88f3a79fe823cb1"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "钻石版",
+            "createBy": null,
+            "serveAliasName": "钻石版",
+            "createTime": null,
+            "updateBy": null,
+            "price": 3456.99,
+            "serveId": "fe46d89914b24fdbb7346f1d39089ee5",
+            "updateTime": null,
+            "serveSupplierId": "720f34eabb2b4112a3ad057e07bdfb9d",
+            "serveModelId": "7c8b4daeeb284255a88f3a79fe823cb1"
+          }
+        ],
+        "serveModelType": 1,
+        "serveModelId": "7c8b4daeeb284255a88f3a79fe823cb1",
+        "serveModelName": "慎终追远"
+      },
+      {
+        "serves": [
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "季度版",
+            "createBy": null,
+            "serveAliasName": "季度版",
+            "createTime": null,
+            "updateBy": null,
+            "price": 1234.33,
+            "serveId": "f5d88b347214412f8141a957e872489e",
+            "updateTime": null,
+            "serveSupplierId": "1abe2f1c0dfb419fb95d969740b91809",
+            "serveModelId": "821d131d85924075841fd1d40b5b2c7b"
+          },
+          {
+            "deviceNum": null,
+            "lastUpdateFromIp": null,
+            "serveName": "半年版",
+            "createBy": null,
+            "serveAliasName": "半年版",
+            "createTime": null,
+            "updateBy": null,
+            "price": 5678.76,
+            "serveId": "e6897c774d534876b0d5bd344743961b",
+            "updateTime": null,
+            "serveSupplierId": "ca0c0f90725c4af7a78a8806425762e4",
+            "serveModelId": "821d131d85924075841fd1d40b5b2c7b"
+          }
+        ],
+        "serveModelType": 2,
+        "serveModelId": "821d131d85924075841fd1d40b5b2c7b",
+        "serveModelName": "为爱惦念"
+      }
+    ],
+    "serveHeadImgUrl":
+      "http://bah.oss-cn-beijing.aliyuncs.com/server/zhuisi_jiantou@3x.png"
+  },
+  "getServeDetailVO": {
+    "serveType": 2,
+    "serveId": "e6897c774d534876b0d5bd344743961b",
+    "updateTime": null,
+    "serveSupplierId": "ca0c0f90725c4af7a78a8806425762e4",
+    "serveModelId": "821d131d85924075841fd1d40b5b2c7b",
+    "serveProsMap": {
+      "serve_cert": [
+        {
+          "deviceNum": null,
+          "serveProId": "740f2213b5a54c83a079f0c13830df3d",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_cert",
+          "updateBy": null,
+          "proValue": "1.提供打扫前照片（2张）；<br/>2.提供打扫后照片（2张）；",
+          "proKey": "服务凭证",
+          "updateTime": null,
+          "sort": 8,
+          "proKeyCode": "serve_cert"
+        }
+      ],
+      "serve_item": [
+        {
+          "deviceNum": null,
+          "serveProId": "1e67571b075e46a184716f4342471db2",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_item",
+          "updateBy": null,
+          "proValue": "精美香炉一樽，每月赠送鲜花一束",
+          "proKey": "【赠】",
+          "updateTime": null,
+          "sort": 1,
+          "proKeyCode": "gift"
+        },
+        {
+          "deviceNum": null,
+          "serveProId": "66e4556fe55b4573a6d9d2cf575ef952",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_item",
+          "updateBy": null,
+          "proValue": "墓碑清洁、环境清洁、植被养护",
+          "proKey": "【服务特色】",
+          "updateTime": null,
+          "sort": 2,
+          "proKeyCode": "serve_features"
+        },
+        {
+          "deviceNum": null,
+          "serveProId": "f315766c8d8a427cbc5bcec7f0e53d88",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_item",
+          "updateBy": null,
+          "proValue": "维护墓碑及周围环境的庄严肃穆（清理落叶、垃圾、鸟粪、灰尘、蜘蛛网、污渍、水渍等）",
+          "proKey": "【服务内容】",
+          "updateTime": null,
+          "sort": 3,
+          "proKeyCode": "serve_content"
+        },
+        {
+          "deviceNum": null,
+          "serveProId": "648e6e9da4994d4abda61a86c8c05990",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_item",
+          "updateBy": null,
+          "proValue": "墓碑正面、反面、顶面、基座、围栏、周围环境等",
+          "proKey": "【服务范围】",
+          "updateTime": null,
+          "sort": 5,
+          "proKeyCode": "serve_range"
+        },
+        {
+          "deviceNum": null,
+          "serveProId": "49527bf93e794dcea263927b5f69578d",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_item",
+          "updateBy": null,
+          "proValue": "海绵、湿毛巾、干毛巾、进口中性清洁剂、清水、肥皂水等",
+          "proKey": "【清洁工具】",
+          "updateTime": null,
+          "sort": 6,
+          "proKeyCode": "clean_tools"
+        },
+        {
+          "deviceNum": null,
+          "serveProId": "8e18d7812a1343a98c58bbf3df647681",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "serve_item",
+          "updateBy": null,
+          "proValue":
+            "每周1次，共12次（下单后服务人员及时与您联系，当日12点前下单，在36小时之内完成服务，当日12点后下单，60小时之内完成首次服务）。",
+          "proKey": "【服务时间】",
+          "updateTime": null,
+          "sort": 7,
+          "proKeyCode": "serve_time"
+        }
+      ],
+      "other_descrption": [
+        {
+          "deviceNum": null,
+          "serveProId": "e5a07067d72f4c189a79f141ea60853d",
+          "lastUpdateFromIp": null,
+          "createBy": null,
+          "createTime": null,
+          "proCategoryCode": "other_descrption",
+          "updateBy": null,
+          "proValue": "服务未完成时，再次购买该服务，会在当前服务完成后，开始后一个订单的服务",
+          "proKey": "其他说明",
+          "updateTime": null,
+          "sort": 9,
+          "proKeyCode": "other"
+        }
+      ]
+    },
+    "serveModelName": "清洁服务",
+    "deviceNum": null,
+    "lastUpdateFromIp": null,
+    "serveName": "套餐一",
+    "createBy": null,
+    "createTime": null,
+    "updateBy": null,
+    "price": 5678.76,
+    "servePros": null,
+    "introduction": null
+  }
+}

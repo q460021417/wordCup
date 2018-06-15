@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,viewport-fit=cover,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title></title>
+  <style type=text/css>
+    body {
+      background: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <img src='static/img/open.png' id='open'>
+  <img src='static/img/close_icon.png' id='stop'>
+
+  <audio id='music' src="static/music/music.mp3"></audio>
+  <div id=app></div>
+</body>
+
+
+</html>
+<style>
+  .weui-dialog {
+    max-width: none
+  }
+
+  .weui-toast {
+    width: 60% !important
+  }
+
+  .weui-icon_toast {
+    display: none !important;
+  }
+
+  .weui-toast {
+    min-height: auto !important;
+  }
+
+  .weui-toast__content {
+    margin: 0 !important;
+    padding: 15px !important;
+  }
+
+  #music {
+    display: none;
+  }
+
+  #open,
+  #stop {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+</style>
+<script>
+  var audio = document.getElementById('music');
+  var open = document.getElementById('open');
+  var close = document.getElementById('stop');
+  open.style.display = 'none'
+  open.onclick = function() {
+    audio.pause()
+    open.style.display = 'none'
+    close.style.display = 'block'
+  }
+  close.onclick = function() {
+    audio.play()
+    open.style.display = 'block'
+    close.style.display = 'none'
+  }
+</script>
